@@ -1,0 +1,16 @@
+PODS:
+  - iOSCoreFramework (0.1.0)
+
+DEPENDENCIES:
+  - iOSCoreFramework (from `../`)
+
+EXTERNAL SOURCES:
+  iOSCoreFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSCoreFramework: cb1678f7be452cf3688a4edb813cdca066fed147
+
+PODFILE CHECKSUM: 5a48b7332a8b5d1e67a16090956677d628b5a2a9
+
+COCOAPODS: 1.6.1

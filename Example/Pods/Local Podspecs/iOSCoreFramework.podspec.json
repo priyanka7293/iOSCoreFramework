@@ -1,0 +1,22 @@
+{
+  "name": "iOSCoreFramework",
+  "version": "0.1.0",
+  "summary": "A short description of iOSCoreFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bharatbhamare/iOSCoreFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bharatbhamare": "priyanka.tuplondhe@triarqhealth.com"
+  },
+  "source": {
+    "git": "https://github.com/bharatbhamare/iOSCoreFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSCoreFramework/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module iOSCoreFramework {
+  umbrella header "iOSCoreFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
