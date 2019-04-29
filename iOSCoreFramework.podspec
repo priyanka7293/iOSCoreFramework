@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This is description'
+  s.description      = 'This is description for custom cocoapods, we can use it using following ways'
 
   s.homepage         = 'https://github.com/priyanka7293/iOSCoreFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

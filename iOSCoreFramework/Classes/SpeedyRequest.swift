@@ -70,7 +70,7 @@ public class SpeedyRequest {
     public func logDebug(data: Data?) {
         guard let debugData = data else { return }
         
-        let responseString = String(data: debugData, encoding: String.Encoding.utf8) ?? ""
+        //let responseString = String(data: debugData, encoding: String.Encoding.utf8) ?? ""
         //print(responseString)
     }
     
