@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZD4H262A5L;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZD4H262A5L;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -485,6 +487,7 @@
 			baseConfigurationReference = E222501D73EBF1C7F830BEEE /* Pods-iOSCoreFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD4H262A5L;
 				INFOPLIST_FILE = iOSCoreFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,6 +503,7 @@
 			baseConfigurationReference = 4E6A42F7B51D8B357512030C /* Pods-iOSCoreFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD4H262A5L;
 				INFOPLIST_FILE = iOSCoreFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -514,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C18241209BBF53064143117 /* Pods-iOSCoreFramework_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZD4H262A5L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BA18A7BCA1BEF560D709B83 /* Pods-iOSCoreFramework_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZD4H262A5L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
