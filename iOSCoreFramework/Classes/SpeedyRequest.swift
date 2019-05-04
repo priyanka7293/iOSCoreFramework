@@ -24,8 +24,7 @@ public class SpeedyRequest {
         self.httpParams = httpParams
     }
     
-    public init?(route: String? = nil, url: URL? = nil, method: SpeedyMethod = .get, params: SpeedyParams? = nil) {
-        SpeedyNetworking.setCustomAuthHeader()
+    public init?(route: String? = nil, url: URL? = nil, method: SpeedyMethod = .get, params: SpeedyParams? = nil,isSetHeader : Bool) {
         //SpeedyNetworking.setServerUrl(url: URL(string: GlobalConstants.BaseURL))
         httpMethod = method
         httpParams = params
@@ -38,10 +37,10 @@ public class SpeedyRequest {
             return nil
         }
         
-        configureRequest()
+        configureRequest(isSetHeader: isSetHeader)
     }
     
-    public func configureRequest() {
+    public func configureRequest(isSetHeader : Bool) {
         request = URLRequest(url: fullUrl)
         request.httpMethod = httpMethod.rawValue
         
@@ -51,7 +50,10 @@ public class SpeedyRequest {
         
        // if let _ = baseUrl {
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.setValue(SpeedyConfiguration.shared.defaultAuthorizationHeader, forHTTPHeaderField: "Authorization")
+        if isSetHeader{
+            SpeedyNetworking.setCustomAuthHeader()
+            request.setValue("Bearer " + SpeedyConfiguration.shared.defaultAuthorizationHeader!, forHTTPHeaderField: "Authorization")
+        }
         //}
     }
     
@@ -68,9 +70,9 @@ public class SpeedyRequest {
     }
     
     public func logDebug(data: Data?) {
-        //guard let debugData = data else { return }
+        guard let debugData = data else { return }
         
-        //let responseString = String(data: debugData, encoding: String.Encoding.utf8) ?? ""
+        let responseString = String(data: debugData, encoding: String.Encoding.utf8) ?? ""
         //print(responseString)
     }
     
