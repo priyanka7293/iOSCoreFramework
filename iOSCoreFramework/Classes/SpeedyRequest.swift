@@ -58,15 +58,17 @@ public class SpeedyRequest {
     }
     
     public func execute(completion: @escaping (SpeedyResponse) -> Void) {
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            let response = SpeedyResponse(data: data, response: response, error: error)
-            
-            DispatchQueue.main.async {
-                completion(response)
-            }
-            
-            self.logDebug(data: data)
-        }.resume()
+        DispatchQueue.global(qos: .background).async{
+            URLSession.shared.dataTask(with: self.request) { data, response, error in
+                let response = SpeedyResponse(data: data, response: response, error: error)
+                
+                DispatchQueue.main.async {
+                    completion(response)
+                }
+                
+                self.logDebug(data: data)
+                }.resume()
+        }
     }
     
     public func logDebug(data: Data?) {

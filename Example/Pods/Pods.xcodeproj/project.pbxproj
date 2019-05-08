@@ -20,6 +20,7 @@
 		7224F4FE227728040099F61E /* SpeedyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224F4F5227728040099F61E /* SpeedyConfiguration.swift */; };
 		7224F4FF227728040099F61E /* Speedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224F4F6227728040099F61E /* Speedy.swift */; };
 		7224F500227728040099F61E /* CoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224F4F7227728040099F61E /* CoreConstants.swift */; };
+		7281C6C2227EA6E000683815 /* ProgressHUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281C6C1227EA6E000683815 /* ProgressHUDManager.swift */; };
 		8B745FEDA86C10F11E47350DA81C08CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		925A3CBABAD024F5BBFB0F02AC87CA23 /* Pods-iOSCoreFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6521F3FE0A5979D0B7852B0B7D0D89C8 /* Pods-iOSCoreFramework_Example-dummy.m */; };
 		BB3A3C1D1E902C13578A62249F6DA6AF /* Pods-iOSCoreFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B86F02553AC61F9E03344C6EE99E0C9 /* Pods-iOSCoreFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +72,7 @@
 		7224F4F5227728040099F61E /* SpeedyConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeedyConfiguration.swift; path = iOSCoreFramework/Classes/SpeedyConfiguration.swift; sourceTree = "<group>"; };
 		7224F4F6227728040099F61E /* Speedy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Speedy.swift; path = iOSCoreFramework/Classes/Speedy.swift; sourceTree = "<group>"; };
 		7224F4F7227728040099F61E /* CoreConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreConstants.swift; path = iOSCoreFramework/Classes/CoreConstants.swift; sourceTree = "<group>"; };
+		7281C6C1227EA6E000683815 /* ProgressHUDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressHUDManager.swift; path = iOSCoreFramework/Classes/ProgressHUDManager.swift; sourceTree = "<group>"; };
 		75AF3EACAD2956E4EF44E7FA168360E3 /* Pods-iOSCoreFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSCoreFramework_Example.modulemap"; sourceTree = "<group>"; };
 		872A220E14725665800F649891095859 /* iOSCoreFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSCoreFramework.modulemap; sourceTree = "<group>"; };
 		92C3CE25F6431314BE6B88C9A20F2A1F /* iOSCoreFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSCoreFramework-prefix.pch"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				7224F4F1227728040099F61E /* SpeedyParams.swift */,
 				7224F4F2227728040099F61E /* SpeedyRequest.swift */,
 				7224F4F3227728040099F61E /* SpeedyResponse.swift */,
+				7281C6C1227EA6E000683815 /* ProgressHUDManager.swift */,
 				29457FF9F8F65A3BEAEB1FCB2BF24D0C /* Pod */,
 				F9E9D71027E7CD0FA8AA58322CC75581 /* Support Files */,
 			);
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7281C6C2227EA6E000683815 /* ProgressHUDManager.swift in Sources */,
 				7224F500227728040099F61E /* CoreConstants.swift in Sources */,
 				7224F4FF227728040099F61E /* Speedy.swift in Sources */,
 				7224F4FD227728040099F61E /* SpeedyDownload.swift in Sources */,
