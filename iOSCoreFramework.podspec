@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/priyanka7293/iOSCoreFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'priyanka7293' => 'priyanka.tuplondhe@triarqhealth.com' }
+  s.author           = { 'kiran4991' => 'kiran.sole@triarqhealth.com' }
   s.source           = { :git => 'https://github.com/priyanka7293/iOSCoreFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
