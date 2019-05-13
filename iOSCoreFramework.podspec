@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSCoreFramework'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'This is short summary of iOSCoreFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/priyanka7293/iOSCoreFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kiran4991' => 'kiran.sole@triarqhealth.com' }
+  s.author           = { 'priyanka7293' => 'priyanka.tuplondhe@triarqhealth.com' }
   s.source           = { :git => 'https://github.com/priyanka7293/iOSCoreFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
