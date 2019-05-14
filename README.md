@@ -22,7 +22,7 @@ pod 'iOSCoreFramework'
 
 ## Author
 
-bharatbhamare, priyanka.tuplondhe@triarqhealth.com
+kiran sole, kiran.sole@triarqhealth.com
 
 ## License
 
